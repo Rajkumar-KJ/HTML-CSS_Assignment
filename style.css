@@ -1,0 +1,181 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color:rgb(244, 224, 231);
+}
+
+.navbar{
+    background-color:#8a1a46;
+    padding:10px 0px;
+    display: flex;
+  justify-content: space-between; 
+  align-items: center;    
+  position:sticky;
+  top:0;
+  z-index:1; 
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    margin-left:20px;
+}
+
+.nav-links{
+   display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px; 
+}
+
+.nav-links li a{
+   color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition:0.5s;
+}
+
+.nav-links li a:hover{
+    color:black
+}
+
+.sec1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+    height: 500px;
+}
+
+.sec2 {
+    position: absolute;
+    left: 30%; 
+    bottom:40%;
+    width: 40%;
+    height: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size:larger;
+}
+
+.sec3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.img3{
+  display: flex;
+  gap:400px;
+}
+
+.sec3 img{
+    height:300px;
+    width:400px;
+}
+
+.sec4{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap:700px;
+}
+
+.sec4 a{
+   background-color:#8a1a46;
+    color: aliceblue;
+    text-decoration:none;
+    padding:15px 20px;
+    font-size:large;
+    border-radius:4px;
+}
+
+.sec5{
+    background-color: aliceblue;
+    width:95%;
+    position:relative;
+    left:35px;
+    top:40px;
+}
+
+.sec5 h1{
+    color:#8a1a46;
+    text-align:center;
+    padding:30px 0px;
+}
+
+
+.sec5 p, .sec5 h2 {
+  text-align: left;
+  padding: 10px 20px;
+  line-height: 1.6;
+}
+
+footer{
+    padding:10px 0px;
+    margin-top:60px;
+     background-color:#8a1a46;
+color: aliceblue;
+text-align:center;
+}
+
+/* men.html */
+
+.men-intro{
+    background-color: aliceblue;
+    width:80%;
+    margin-left:140px;
+    margin-top:30px;
+    border-radius:5px;
+    
+}
+
+.men-intro h1, .men-intro p{
+text-align:center;
+padding:30px 70px;
+
+}
+
+
+.men, .men-schedule{
+    padding:30px 0px;
+}
+.muscle{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+table{
+   border-collapse: collapse; 
+    
+}
+
+th,td{
+    border: 4px solid #ccc;
+    padding:10px;
+}
+
+th{
+     background-color: rgb(19, 19, 19);
+     color:aliceblue
+}
+td{
+     background-color: aliceblue;
+}
+
+.men-schedule{
+    display:flex;
+    justify-content:space-evenly;
+
+
+
+}
