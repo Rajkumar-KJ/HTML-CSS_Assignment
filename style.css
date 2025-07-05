@@ -185,7 +185,28 @@ td{
 .men-schedule{
     display:flex;
     justify-content:space-evenly;
+}
 
+.doc{
+    text-align:center;
+   
 
+}
+.doc a{
+    
+    text-decoration:none;
+     background-color:#8a1a46;
+    color: aliceblue;
+    padding:10px;
+    border-radius:5px;
 
+}
+
+.album img{
+    margin-top:70px;
+    width:400px;
+    height:300px;
+    object-fit: cover;
+     margin-left:50px;
+    
 }
