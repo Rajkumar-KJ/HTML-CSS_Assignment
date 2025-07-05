@@ -144,6 +144,16 @@ padding:30px 70px;
 
 }
 
+.workout-img img{
+
+    width:400px;
+    height:300px;
+    object-fit: cover;
+    margin-top:40px;
+    margin-left:50px;
+    
+
+}
 
 .men, .men-schedule{
     padding:30px 0px;
